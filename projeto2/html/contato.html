@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbie - Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../assets/projeto2/style.css">
+
+
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="fotoMenu">
+                <img src="../assets/img/barbie.png" alt="" width="120px" height="60px">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">História da Barbie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="barbies.html">Barbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acessorios.html">Acessórios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="filmes.html">Filmes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Fale com a Barbie</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- menu -->
+
+    <div class="conteiner">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="col bg-dark">1 coluna</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="geral align-self-center ">
+        <div>
+            <form class="formulario">
+                <div class=" container p-2 ">
+                    <h2>Envie uma mensagem para a Barbie:</h2>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                </div>
+                <div  class=" container p-2">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                </div>
+                <div  class=" container p-2">
+                    <label for="assunto">Assunto:</label>
+                    <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
+                    <button class="botao" onclick="enviarFake()">Enviar</button>
+                    <div id="txtAssunto"></div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <div class="conteiner">
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="col bg-dark">1 coluna</div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <!-- footer -->
+        <div class="container-fluid">
+            <footer>
+                <nav>
+                    <h2>Navegue no site</h2>
+                    <ul>
+                        <li><a href="index.html">História da Barbie</a></li>
+                        <li><a href="barbies.html">Barbies</a></li>
+                        <li><a href="acessorios.html">Acessórios</a></li>
+                        <li><a href="filmes.html">Filmes</a></li>
+                        <li><a href="contato.html">Mande sua cartinha para a Barbie</a></li>
+                    </ul>
+                </nav>
+                <div text-center>
+                    <img src="../assets/img/barbie-logo.png" alt="logo da barbie - silhueta rosa de rabo de cavalo" width="80px" height="100px">
+                    <small>Copyright © 2021 </small>
+                </div>
+
+            </footer>
+        </div>
+        <!-- script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

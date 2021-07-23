@@ -1,0 +1,14 @@
+.carrosel img{
+height: 400px;
+
+}
+
+.fotoMenu img{
+  height: 0,1px !important;
+
+}
+
+.borda {
+border: 1px solid red !important;
+
+}
