@@ -16,7 +16,7 @@
 
 <body>
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
             <div class="fotoMenu">
                 <img src="../assets/img/barbie.png" alt="" width="120px" height="60px">
@@ -48,16 +48,16 @@
     </nav>
     <!-- menu -->
 
-    <div class="conteiner">
-        <div class="row mt-5">
-            <div class="col-md-12">
-                <div class="col bg-dark">1 coluna</div>
-            </div>
+
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <div class="col bg-dark">1 coluna</div>
         </div>
     </div>
 
-    <div class="geral align-self-center ">
-        <div>
+    <div class="container-fluid">
+        <div class="geral align-self-center ">
+
             <form class="formulario">
                 <div class=" container p-2 ">
                     <h2>Envie uma mensagem para a Barbie:</h2>
@@ -65,56 +65,60 @@
                     <input type="text" id="nome" onkeyup="validaNome()">
                     <div id="txtNome"></div>
                 </div>
-                <div  class=" container p-2">
+                <div class=" container p-2">
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" onkeyup="validaEmail()">
                     <div id="txtEmail"></div>
                 </div>
-                <div  class=" container p-2">
+                <div class=" container p-2">
                     <label for="assunto">Assunto:</label>
                     <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validaAssunto()"></textarea>
                     <button class="botao" onclick="enviarFake()">Enviar</button>
                     <div id="txtAssunto"></div>
                 </div>
             </form>
+
         </div>
+    </div>
 
 
-
-
-        <div class="conteiner">
-            <div class="row mt-5">
-                <div class="col-md-12">
-                    <div class="col bg-dark">1 coluna</div>
-                </div>
-            </div>
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <div class="col bg-dark">1 coluna</div>
         </div>
+    </div>
 
-        <hr>
-        <!-- footer -->
-        <div class="container-fluid">
-            <footer>
-                <nav>
-                    <h2>Navegue no site</h2>
-                    <ul>
-                        <li><a href="index.html">História da Barbie</a></li>
-                        <li><a href="barbies.html">Barbies</a></li>
-                        <li><a href="acessorios.html">Acessórios</a></li>
-                        <li><a href="filmes.html">Filmes</a></li>
-                        <li><a href="contato.html">Mande sua cartinha para a Barbie</a></li>
-                    </ul>
-                </nav>
+
+    <hr>
+    <!-- footer -->
+    <div class="container-fluid">
+        <footer>
+            <nav>
+                <h2>Navegue no site</h2>
+                <ul>
+                    <li><a href="index.html">História da Barbie</a></li>
+                    <li><a href="barbies.html">Barbies</a></li>
+                    <li><a href="acessorios.html">Acessórios</a></li>
+                    <li><a href="filmes.html">Filmes</a></li>
+                    <li><a href="contato.html">Mande sua cartinha para a Barbie</a></li>
+                </ul>
+            </nav>
+
+            <hr>
+            <div class="container">
                 <div text-center>
-                    <img src="../assets/img/barbie-logo.png" alt="logo da barbie - silhueta rosa de rabo de cavalo" width="80px" height="100px">
+                    <img src="../assets/img/barbie-logo.png" alt="logo da barbie - silhueta rosa de rabo de cavalo"
+                        width="80px" height="100px">
                     <small>Copyright © 2021 </small>
                 </div>
+            </div>
 
-            </footer>
-        </div>
-        <!-- script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+        </footer>
+    </div>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

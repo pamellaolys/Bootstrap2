@@ -1,14 +1,20 @@
 .carrosel img{
 height: 400px;
-
 }
 
 .fotoMenu img{
   height: 0,1px !important;
-
 }
 
 .borda {
 border: 1px solid red !important;
+}
 
+#h5{
+  font-family: 'Lobster', cursive !important ;
+  color: #fc7ca8 !important ;
+}
+
+#itensMenu{
+  color: #e60e59 !important ;
 }
